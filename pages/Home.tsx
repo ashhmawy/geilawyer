@@ -35,7 +35,7 @@ export const Home: React.FC<HomeProps> = ({ onNavigate }) => {
               <span className="text-slate-300 italic">Relentless Advocacy.</span>
             </h1>
             <p className="text-lg md:text-xl text-slate-300 mb-10 leading-relaxed max-w-2xl border-l-4 border-gold-600 pl-6">
-              George E. Ibrahim & Co. provides elite representation for those who demand the very best. We protect what matters most to you.
+              Jafer Lawyers provides elite representation for those who demand the very best. We protect what matters most to you.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" onClick={() => onNavigate(PageId.CONTACT)}>
@@ -97,7 +97,7 @@ export const Home: React.FC<HomeProps> = ({ onNavigate }) => {
           <div className="order-1 lg:order-2">
             <SectionHeading title="Unwavering Commitment to Justice" subtitle="Who We Are" />
             <p className="text-lg text-slate-700 mb-6 leading-relaxed">
-              At George E. Ibrahim & Co., we believe that every client deserves representation defined by integrity, precision, and relentless advocacy. Founded by senior partner George E. Ibrahim, our firm has secured millions in settlements and successfully defended high-profile cases across Victoria.
+              At Jafer Lawyers, we believe that every client deserves representation defined by integrity, precision, and relentless advocacy. Our firm has secured millions in settlements and successfully defended high-profile cases across Victoria.
             </p>
             <p className="text-lg text-slate-700 mb-8 leading-relaxed">
               We do not just interpret the law; we master it to your advantage. Whether you are a corporation facing litigation or an individual in need of defense, we stand by your side.
