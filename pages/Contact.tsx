@@ -86,14 +86,14 @@ export const Contact: React.FC = () => {
              <div className="bg-white border border-slate-200 shadow-2xl rounded-sm overflow-hidden h-full">
                 <div className="p-6 md:p-12 h-full flex flex-col justify-center">
                     <form 
-                      action="https://formsubmit.co/cewlthe411@gmail.com" 
+                      action="https://api.web3forms.com/submit" 
                       method="POST" 
                       className="space-y-6 animate-fade-in"
                     >
-                      {/* Configuration for FormSubmit */}
-                      <input type="hidden" name="_subject" value="New Website Enquiry - Jafer Lawyers" />
-                      <input type="hidden" name="_captcha" value="false" />
-                      <input type="hidden" name="_template" value="table" />
+                      {/* Web3Forms Configuration */}
+                      <input type="hidden" name="access_key" value="44760e77-ec23-4b9d-a303-f17ea0211731" />
+                      <input type="hidden" name="subject" value="New Website Enquiry - Jafer Lawyers" />
+                      <input type="hidden" name="from_name" value="Jafer Lawyers Website" />
                       
                       <div className="mb-6">
                          <h3 className="font-serif text-2xl font-bold text-navy-900 mb-2">Request a Callback</h3>
