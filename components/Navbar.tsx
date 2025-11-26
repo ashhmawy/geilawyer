@@ -55,9 +55,9 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPage, onNavigate }) => {
           </div>
           <div>
             <h1 className="font-serif text-xl md:text-2xl font-bold tracking-wide whitespace-nowrap text-white">
-              GEORGE E. IBRAHIM
+              JAFER LAWYERS
             </h1>
-            <p className="text-[0.65rem] text-gold-500 uppercase tracking-[0.2em] font-bold">& Co. Legal Group</p>
+            <p className="text-[0.65rem] text-gold-500 uppercase tracking-[0.2em] font-bold">Premium Legal Counsel</p>
           </div>
         </div>
 
