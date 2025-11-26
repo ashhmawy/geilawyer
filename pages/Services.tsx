@@ -1,5 +1,5 @@
 import React from 'react';
-import { Gavel, Briefcase, Scale, Users, Building, FileText, Globe, HeartHandshake } from 'lucide-react';
+import { Gavel, Briefcase, Scale, Users, Building, FileText } from 'lucide-react';
 import { Section, Button } from '../components/UI';
 import { PageId } from '../types';
 
@@ -9,14 +9,12 @@ interface ServicesProps {
 
 export const Services: React.FC<ServicesProps> = ({ onNavigate }) => {
   const services = [
-    { icon: Gavel, title: "Criminal Defense", desc: "From DUI to federal crimes, we provide aggressive defense strategies to protect your liberty." },
-    { icon: Users, title: "Family Law", desc: "Navigating divorce, custody, and support with compassion and strong advocacy for your future." },
-    { icon: Briefcase, title: "Business Law", desc: "Corporate formation, contract disputes, and liability protection for enterprises of all sizes." },
-    { icon: Globe, title: "Immigration", desc: "Helping families and businesses navigate complex immigration laws and visa requirements." },
-    { icon: Scale, title: "Civil Litigation", desc: "Representing plaintiffs and defendants in complex civil disputes and torts." },
-    { icon: Building, title: "Real Estate", desc: "Commercial and residential transactions, zoning disputes, and property litigation." },
-    { icon: FileText, title: "Estate Planning", desc: "Wills, trusts, and probate services to secure your legacy for future generations." },
-    { icon: HeartHandshake, title: "Mediation", desc: "Alternative dispute resolution services to settle matters outside the courtroom efficiently." },
+    { icon: Briefcase, title: "Commercial Law & Leasing", desc: "Expert advice on business leases, commercial contracts, and regulatory compliance for your enterprise." },
+    { icon: Building, title: "Property Law", desc: "Comprehensive conveyancing and legal services for buying, selling, and developing property." },
+    { icon: Scale, title: "Litigation & Dispute Resolution", desc: "Strategic representation in civil disputes to achieve the best possible outcome for your interests." },
+    { icon: Users, title: "Family Law", desc: "Navigating divorce, property settlements, and parenting matters with compassion and strong advocacy." },
+    { icon: FileText, title: "Wills & Estates", desc: "Drafting wills, powers of attorney, and managing probate to secure your legacy and protect your family." },
+    { icon: Gavel, title: "Criminal Law", desc: "Defending your rights in summary and indictable matters with experienced legal counsel." },
   ];
 
   return (
@@ -24,9 +22,9 @@ export const Services: React.FC<ServicesProps> = ({ onNavigate }) => {
       {/* Header */}
       <div className="bg-navy-900 text-white py-24">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 text-center">
-          <h1 className="font-serif text-5xl md:text-6xl font-bold mb-6">Practice Areas</h1>
+          <h1 className="font-serif text-5xl md:text-6xl font-bold mb-6">Services</h1>
           <p className="text-xl text-slate-300 max-w-2xl mx-auto leading-relaxed">
-            Comprehensive legal expertise tailored to your unique needs. We specialize in high-stakes environments where precision matters.
+            Over 30 years of experience across a wide range of legal disciplines.
           </p>
         </div>
       </div>
@@ -56,12 +54,12 @@ export const Services: React.FC<ServicesProps> = ({ onNavigate }) => {
 
       {/* CTA */}
       <Section background="dark" className="text-center">
-        <h2 className="font-serif text-3xl text-white font-bold mb-6">Not sure which service you need?</h2>
+        <h2 className="font-serif text-3xl text-white font-bold mb-6">Legal expertise you can trust</h2>
         <p className="text-slate-400 mb-8 max-w-2xl mx-auto">
-          Legal issues often overlap. Schedule a general consultation and we will guide you to the right expert within our firm.
+          Contact us today to discuss your legal requirements with our experienced team.
         </p>
         <Button variant="primary" onClick={() => onNavigate(PageId.CONTACT)}>
-          Schedule Appointment
+          Contact Us
         </Button>
       </Section>
     </div>

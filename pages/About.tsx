@@ -11,9 +11,9 @@ export const About: React.FC = () => {
            <BookOpen size={400} />
         </div>
         <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
-          <h1 className="font-serif text-5xl md:text-6xl font-bold mb-6">Our Firm</h1>
+          <h1 className="font-serif text-5xl md:text-6xl font-bold mb-6">About Us</h1>
           <p className="text-xl text-slate-300 max-w-2xl leading-relaxed">
-            Founded on principles of integrity and excellence, Jafer Lawyers has established itself as a pillar of the legal community.
+            Jafer Lawyers has been serving the community for over 30 years with dedication and expertise.
           </p>
         </div>
       </div>
@@ -30,41 +30,24 @@ export const About: React.FC = () => {
               />
               <div className="absolute bottom-0 left-0 bg-white p-6 shadow-lg max-w-[80%]">
                 <p className="font-serif text-2xl font-bold text-navy-900">Jafer Lawyers</p>
-                <p className="text-gold-600 uppercase tracking-widest text-sm font-bold">Principal Solicitors</p>
+                <p className="text-gold-600 uppercase tracking-widest text-sm font-bold">Est. 1990s</p>
               </div>
             </div>
           </div>
           
           <div className="md:col-span-7">
-            <SectionHeading title="A Legacy of Excellence" subtitle="Leadership" />
+            <SectionHeading title="A Legacy of Excellence" subtitle="Our History" />
             <p className="text-slate-700 mb-6 leading-relaxed">
-              With over 25 years of experience in high-stakes litigation, our principal partners have earned a reputation as formidable advocates. We began with a drive to provide top-tier legal defense for the community before establishing our own practice.
+              With over 30 years in business, Jafer Lawyers has established a reputation for reliability and success. We pride ourselves on building long-term relationships with our clients, guiding them through life's legal challenges with confidence.
             </p>
             <p className="text-slate-700 mb-8 leading-relaxed">
-              Jafer Lawyers is recognized for tactical precision in the courtroom and a compassionate approach to client relations. The firm holds the highest standards for legal ability and ethical practice.
+              Our firm specializes in Property Law, Commercial Law, Family Law, and Litigation, offering a comprehensive suite of services to meet the diverse needs of the Moonee Ponds community and greater Victoria.
             </p>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
-              <div className="flex items-start">
-                <Award className="text-gold-600 w-6 h-6 mr-3 mt-1 shrink-0" />
-                <div>
-                  <h4 className="font-bold text-navy-900">Top 100 Trial Lawyers</h4>
-                  <p className="text-sm text-slate-600">National Trial Lawyers Association</p>
-                </div>
-              </div>
-              <div className="flex items-start">
-                <Award className="text-gold-600 w-6 h-6 mr-3 mt-1 shrink-0" />
-                <div>
-                  <h4 className="font-bold text-navy-900">Best Law Firms 2024</h4>
-                  <p className="text-sm text-slate-600">Independent Review Board</p>
-                </div>
-              </div>
-            </div>
-
             <div className="bg-slate-50 p-8 border-l-4 border-gold-600">
-              <h4 className="font-serif text-xl font-bold text-navy-900 mb-4">Core Philosophy</h4>
+              <h4 className="font-serif text-xl font-bold text-navy-900 mb-4">Core Values</h4>
               <ul className="space-y-3">
-                {['Uncompromising Integrity', 'Client-Centric Strategy', 'Relentless Preparation'].map((item, i) => (
+                {['Experience You Can Trust', 'Client-Focused Results', 'Integrity & Transparency'].map((item, i) => (
                   <li key={i} className="flex items-center text-slate-700">
                     <CheckCircle2 className="text-gold-500 w-5 h-5 mr-3" />
                     {item}
@@ -73,32 +56,6 @@ export const About: React.FC = () => {
               </ul>
             </div>
           </div>
-        </div>
-      </Section>
-
-      {/* Experience Timeline */}
-      <Section background="light">
-        <SectionHeading title="Our History" subtitle="Milestones" center />
-        <div className="max-w-4xl mx-auto">
-          {[
-            { year: '1998', title: 'Firm Established', desc: 'Founded as a boutique criminal defense practice in Moonee Ponds.' },
-            { year: '2005', title: 'Expansion to Corporate Law', desc: 'Added a dedicated division for business litigation and mergers.' },
-            { year: '2012', title: 'Landmark Victory', desc: 'Secured a major settlement in a high-profile civil suit.' },
-            { year: '2024', title: 'Modernization', desc: 'Launched new digital services to better serve clients statewide.' },
-          ].map((item, index) => (
-            <div key={index} className="flex gap-6 mb-12 last:mb-0 group">
-              <div className="flex flex-col items-center">
-                <div className="w-16 h-16 rounded-full bg-white border-2 border-gold-500 flex items-center justify-center text-gold-600 font-bold shadow-md z-10 group-hover:bg-gold-600 group-hover:text-white transition-colors duration-300">
-                  {item.year}
-                </div>
-                {index !== 3 && <div className="w-px h-full bg-slate-300 -my-2"></div>}
-              </div>
-              <div className="pt-2 pb-8">
-                <h3 className="font-serif text-2xl font-bold text-navy-900 mb-2">{item.title}</h3>
-                <p className="text-slate-600 leading-relaxed">{item.desc}</p>
-              </div>
-            </div>
-          ))}
         </div>
       </Section>
     </div>
