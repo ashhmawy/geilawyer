@@ -16,7 +16,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
           <div className="md:col-span-1">
             <div className="flex items-center mb-6">
               <Scale className="text-gold-500 w-8 h-8 mr-3" />
-              <span className="font-serif text-xl font-bold text-white tracking-wide uppercase">George E. Ibrahim <span className="text-gold-500">&</span> Co.</span>
+              <span className="font-serif text-xl font-bold text-white tracking-wide uppercase">Jafer Lawyers</span>
             </div>
             <p className="text-sm leading-relaxed mb-6 text-slate-400">
               Providing elite legal representation with unwavering integrity and precision. We stand as your fiercest advocate in the pursuit of justice.
@@ -73,14 +73,14 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               </li>
               <li className="flex items-center">
                 <Mail className="w-5 h-5 text-gold-500 mr-3 shrink-0" />
-                <span>contact@ibrahimlegal.com.au</span>
+                <span className="break-all">contact@jaferlawyers.com.au</span>
               </li>
             </ul>
           </div>
         </div>
 
         <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-slate-500">
-          <p>&copy; {new Date().getFullYear()} George E. Ibrahim & Co. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Jafer Lawyers. All rights reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="hover:text-white">Privacy Policy</a>
             <a href="#" className="hover:text-white">Terms of Service</a>
