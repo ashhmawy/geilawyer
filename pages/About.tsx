@@ -13,7 +13,7 @@ export const About: React.FC = () => {
         <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
           <h1 className="font-serif text-5xl md:text-6xl font-bold mb-6">Our Firm</h1>
           <p className="text-xl text-slate-300 max-w-2xl leading-relaxed">
-            Founded on principles of integrity and excellence, George E. Ibrahim & Co. has established itself as a pillar of the legal community.
+            Founded on principles of integrity and excellence, Jafer Lawyers has established itself as a pillar of the legal community.
           </p>
         </div>
       </div>
@@ -25,12 +25,12 @@ export const About: React.FC = () => {
             <div className="relative">
               <img 
                 src="https://picsum.photos/seed/lawyer_headshot/800/1000" 
-                alt="George E. Ibrahim" 
+                alt="Principal Lawyer" 
                 className="w-full h-auto shadow-2xl" 
               />
               <div className="absolute bottom-0 left-0 bg-white p-6 shadow-lg max-w-[80%]">
-                <p className="font-serif text-2xl font-bold text-navy-900">George E. Ibrahim</p>
-                <p className="text-gold-600 uppercase tracking-widest text-sm font-bold">Principal Lawyer</p>
+                <p className="font-serif text-2xl font-bold text-navy-900">Jafer Lawyers</p>
+                <p className="text-gold-600 uppercase tracking-widest text-sm font-bold">Principal Solicitors</p>
               </div>
             </div>
           </div>
@@ -38,10 +38,10 @@ export const About: React.FC = () => {
           <div className="md:col-span-7">
             <SectionHeading title="A Legacy of Excellence" subtitle="Leadership" />
             <p className="text-slate-700 mb-6 leading-relaxed">
-              With over 25 years of experience in high-stakes litigation, George E. Ibrahim has earned a reputation as a formidable advocate. He began his career with a drive to provide top-tier legal defense for his community before establishing his own practice.
+              With over 25 years of experience in high-stakes litigation, our principal partners have earned a reputation as formidable advocates. We began with a drive to provide top-tier legal defense for the community before establishing our own practice.
             </p>
             <p className="text-slate-700 mb-8 leading-relaxed">
-              George is recognized for his tactical precision in the courtroom and his compassionate approach to client relations. His firm holds the highest standards for legal ability and ethical practice.
+              Jafer Lawyers is recognized for tactical precision in the courtroom and a compassionate approach to client relations. The firm holds the highest standards for legal ability and ethical practice.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
